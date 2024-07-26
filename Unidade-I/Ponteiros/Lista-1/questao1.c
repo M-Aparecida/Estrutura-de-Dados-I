@@ -1,1 +1,1 @@
-/*"x" será 3, "y" será 4, e "*p" será 4.*/
+/*"x" será 3, "y" será 4 e "*p" será 4.*/
