@@ -1,0 +1,1 @@
+/*Vai mostrar o valor das variáveis, calculando, será: 10 20 10 30.*/
