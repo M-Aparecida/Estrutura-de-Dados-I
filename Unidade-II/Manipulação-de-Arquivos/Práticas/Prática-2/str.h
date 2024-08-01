@@ -1,9 +1,7 @@
 /*Funcoes oferecidas pelo modulo str.c*/
 
 /*funcao comprimento*/
-
 /*retorna o numero de caracteres da string passada como parametro*/
-
 int comprimento (char* str);
 
 /*funcao copia*/
