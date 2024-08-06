@@ -50,5 +50,5 @@ void Transferir(ContaBancaria * conta, float novovalor){
 }
 
 float Saldo(ContaBancaria * conta){
-    printf("Saldo restante:%f", conta->saldo);
+    return conta->saldo;
 }

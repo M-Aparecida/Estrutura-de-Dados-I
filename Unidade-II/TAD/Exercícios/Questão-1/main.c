@@ -6,6 +6,10 @@ int main(void){
     Deposita(conta, 2500.00);
     Sacar(conta, 3000.00);
     Transferir(conta, 200.00);
+    printf("Saldo atual: %.2f\n", Saldo(conta));
+
+    free(conta);
+
 
     return 0;
 }
