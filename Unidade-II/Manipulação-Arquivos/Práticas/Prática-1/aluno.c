@@ -1,4 +1,6 @@
+#include <stdio.h>
 #include "aluno.h"
+#include <stdlib.h>
 
 struct aluno{
     int matricula;
@@ -6,12 +8,12 @@ struct aluno{
     float media; 
 };
 
-Aluno criarAluno(int matricula, char nome[], float media){
+Aluno* criarAluno(int matricula, char nome[], float media){
     Aluno *aluno = (Aluno*) malloc(sizeof(Aluno));
     aluno->matricula = matricula;
     aluno->media = media;
     strcpy(aluno->nome, nome);
-    return *aluno;
+    return aluno;
 
 }
 
