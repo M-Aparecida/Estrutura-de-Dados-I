@@ -60,18 +60,10 @@ int main()
         i++;
     }
     
-
-    // while (fgets(linha, 200, arquivo) != NULL)
-    // {
-    //     sscanf(linha, "%[^,],%d,%f,%f,%f", alunos[i].nome, &alunos[i].idade,
-    //            &alunos[i].notas[0], &alunos[i].notas[1], &alunos[i].notas[2]);
-    //     alunos[i].media = (alunos[i].notas[0] + alunos[i].notas[1] + alunos[i].notas[2]) / 3;
-    //     i++;
-    // }
     alunos = bubble_sort(alunos, linhas);
     for (i = 0; i < linhas; i++)
     {
-        printf("Aluno %d: %s  :  %.1f\n", i + 1, alunos[i].nome, alunos[i].media);
+        printf("Aluno %d: %s:  %.1f\n", i + 1, alunos[i].nome, alunos[i].media);
     }
     fclose(arquivo);
 
